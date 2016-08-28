@@ -12,6 +12,7 @@
 		BA1B86671D72757B001A5913 /* JYDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B86661D72757B001A5913 /* JYDiscoverViewController.swift */; };
 		BA1B86691D72759E001A5913 /* JYMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B86681D72759E001A5913 /* JYMessageViewController.swift */; };
 		BA1B866B1D7275AF001A5913 /* JYProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B866A1D7275AF001A5913 /* JYProfileViewController.swift */; };
+		BA1B866D1D72903F001A5913 /* JYNilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1B866C1D72903F001A5913 /* JYNilViewController.swift */; };
 		BA4C8B6E1D7087E800F8740B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C8B6D1D7087E700F8740B /* AppDelegate.swift */; };
 		BA4C8B751D7087E800F8740B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4C8B741D7087E800F8740B /* Assets.xcassets */; };
 		BA4C8B831D7087E800F8740B /* _Weibo____Swift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C8B821D7087E800F8740B /* _Weibo____Swift__Tests.swift */; };
@@ -41,6 +42,7 @@
 		BA1B86661D72757B001A5913 /* JYDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYDiscoverViewController.swift; sourceTree = "<group>"; };
 		BA1B86681D72759E001A5913 /* JYMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMessageViewController.swift; sourceTree = "<group>"; };
 		BA1B866A1D7275AF001A5913 /* JYProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYProfileViewController.swift; sourceTree = "<group>"; };
+		BA1B866C1D72903F001A5913 /* JYNilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYNilViewController.swift; sourceTree = "<group>"; };
 		BA4C8B6A1D7087E700F8740B /* 仿Weibo客户端（Swift版）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿Weibo客户端（Swift版）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4C8B6D1D7087E700F8740B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA4C8B741D7087E800F8740B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		BA1B86601D7273F2001A5913 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				BA1B866C1D72903F001A5913 /* JYNilViewController.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			files = (
 				BA1B86651D727540001A5913 /* JYHomeViewController.swift in Sources */,
 				BA1B86671D72757B001A5913 /* JYDiscoverViewController.swift in Sources */,
+				BA1B866D1D72903F001A5913 /* JYNilViewController.swift in Sources */,
 				BA4C8B6E1D7087E800F8740B /* AppDelegate.swift in Sources */,
 				BA1B866B1D7275AF001A5913 /* JYProfileViewController.swift in Sources */,
 				BA1B86631D72751A001A5913 /* JYMainController.swift in Sources */,
