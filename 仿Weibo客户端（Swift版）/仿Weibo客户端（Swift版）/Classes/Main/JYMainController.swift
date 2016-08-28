@@ -13,23 +13,30 @@ class JYMainController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        //
+        tabBar.tintColor = UIColor.orangeColor()
+        // 2.添加子控制器
+        addChildController(JYHomeViewController(), title: "首页", imageName: "tabbar_home")
+        addChildController(JYMessageViewController(), title: "消息", imageName: "tabbar_message_center")
+        addChildController(JYDiscoverViewController(), title: "广场", imageName: "tabbar_discover")
+        addChildController(JYProfileViewController(), title: "我", imageName: "tabbar_profile")
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // 初始化子控制器
+    private func addChildController(childController: UIViewController, title: String, imageName: String){
+        // 1.
+        childController.tabBarItem.image = UIImage(named: imageName)
+        childController.tabBarItem.selectedImage = UIImage(named: imageName + "_highlighted")
+        childController.title = title
+        
+        // 2.
+        let nav = UINavigationController()
+        nav.addChildViewController(childController)
+        
+        // 3.
+        addChildViewController(nav)
+        
     }
-    */
 
 }
